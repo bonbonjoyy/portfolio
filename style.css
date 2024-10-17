@@ -1,0 +1,192 @@
+/* HEADER */
+.header1 {
+    background-color: #16423C;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+.header2 {
+    text-align: left;
+    padding: 13px;
+    width: 13%;
+    color: white;
+}
+
+/* BODY */
+body {
+    font-family: 'Open Sans';
+    background-color: #FFF8E7 ;
+    padding: 40px;
+}
+
+hr {
+    border: 2px solid #000;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #6A9C89;
+    margin-bottom: 20px;
+}
+
+.navbar-nav {
+    display: flex;
+    color: white;
+    width: 100%;
+    padding: 0px 0;
+    justify-content: center;
+}
+
+.nav-item {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: 'Open Sans';
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+/* SECTION */
+section {
+    background-color: #C4DAD2;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section img {
+    display: block;
+    margin: 20px auto;
+    width: 270px;
+    height: 400px;
+}
+
+/* BUTTON */
+a.btn {
+    background-color: #2980b9;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 10em;
+    height: 45px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.btn:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+button.contact-btn {
+    background-color: #2980b9;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+button.contact-btn:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+/* CONTENT */
+#content article header {
+    background-color: #2F8C7C ;
+    border-radius: 8px;
+}
+
+.uk {
+    font-size: 20px;
+}
+
+section#content article {
+    margin-bottom: 20px;
+}
+
+/* Technical Skill */
+#skill p {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.skill-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #ddd;
+    border: 2px solid;
+    border-radius: 4px;
+    height: 30px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.skill-level {
+    display: block;
+    width: var(--skill-level);
+    height: 100%;
+    background-color: #16423C ;
+    text-align: center;
+    color: white;
+    line-height: 20px;
+}
+
+/* CONTACT */
+#contact input.x {
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    height: 35px;
+}
+
+section#contact article p {
+    font-size: 20px;
+}
+
+/* SOCIAL MEDIA */
+aside#social {
+    width: 40%;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+aside#social ul {
+    font-size: 20px;
+    padding: 0;
+    margin: 0; 
+}
+
+aside#social ul li {
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+aside#social ul li a {
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+
+footer p {
+    margin-bottom: 10px;
+}

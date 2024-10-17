@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Three - Drawing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <style>
+
+        /* HEADER */
+        header {
+            background-color: #4A4947;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-family: 'Open Sans';
+        }
+
+        /* BODY */
+        body {
+            font-family: 'Open Sans';
+            background-color: #FAF7F0 ;
+            padding: 40px;
+        }
+
+        /* NAVBAR */
+        .navbar {
+            background-color: #B17457;
+            margin-bottom: 20px;
+        }
+
+        .navbar-nav {
+            display: flex;
+            color: white;
+            width: 100%;
+            padding: 0px 0;
+            justify-content: center;
+        }
+
+        .nav-item {
+            text-align: center;
+            margin-left: 20px;
+            margin-right: 20px;
+            font-size: 20px;
+            font-family: 'Open Sans';
+        }
+
+        .nav-link:hover {
+            color: white;
+        }
+
+        .carousel {
+            max-width: 380px;
+            margin: 30px auto;
+        }
+
+        .carousel-item img {
+            height: 16cm;
+            width: auto;
+            margin: 0 auto;
+            display: block;
+            border-radius: 8px;
+            border: 2px solid #555;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        a.btn {
+            background-color: #2980b9;
+            color: white;
+            margin-top: 10px;
+            border: none;
+            border-radius: 8px;
+            width: 10em;
+            height: 45px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        a.btn:hover {
+            background-color: #2980b9;
+            transform: scale(1.05);
+        }
+
+        /* SECTION */
+        section {
+            background-color: #D8D2C2;
+            padding: 20px;
+            margin-bottom: 20px;
+            color: black;
+        }
+        
+        .uk {
+            font-size: 20px;
+        }
+
+        section#soft article {
+            margin-bottom: 20px;
+            color: black; 
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #4A4947;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+        }
+
+        li {
+            font-size: 24px;
+            color: black;
+        }
+
+        #projects {
+            background-color: #FCFAEE;
+            padding: 40px;
+            text-align: center;
+        }
+
+        #projects h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+            color: black;
+        }
+
+        .projects {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .project-card {
+            background-color: #D8D2C2;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            transition: transform 0.2s;
+        }
+
+        .project-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .project-card h3 {
+            margin-top: 15px;
+            color: black;
+        }
+
+        .project-card p {
+            color: black;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <hgroup>
+            <h1 style="font-size: 36px; font-weight: bold; margin-bottom: 50px;">Drawing</h1>
+            <h2 style="font-size: 18px;">
+                Rizky Gusti Fany
+                <p style="font-style: italic; margin-top: 10px;">Information System Student | Web Development & UI/UX </p>
+            </h2>
+        </hgroup>
+    </header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about" style="color: white;">About Project</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features" style="color: white;">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#soft" style="color: white;">Software</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <section id="projects">
+        <h2>My Project</h2>
+        <div class="projects">
+            <div class="project-card">
+                <img src="img/1.jpg" alt="Proyek 1">
+                <h3>The Knight Against Dragon</h3>
+                <p>"A knight who comes to collect a debt from a dragon that has been overdue for 2 years".</p>
+            </div>
+            <div class="project-card">
+                <img src="img/2.jpg" alt="Proyek 2">
+                <h3>Fallen Angel</h3>
+                <p style="margin-top: 40px;">"Arrogance and pride will make you fall".</p>
+            </div>
+            <div class="project-card">
+                <img src="img/3.jpg" alt="Proyek 3">
+                <h3>Werewolf</h3>
+                <p style="margin-top: 30px;">"Depicting the struggle between the human side and the animal side, between morality and primal instinct".</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 style="margin-bottom: 20px;">Quotes</h1>
+        <p style="font-size: 20px;">
+            Entahlah... terkadang saya melakukannya saat bosan. Tetapi akhir" ini saya jarang bosan karna banyak tugas. Jadi, "Tugas"... apa kamu tidak bosan menghampiri saya terus??
+        </p>
+
+        <section class="navigation">
+            <a href="projectwo.html" style="font-size: 20px;" class="btn">
+                <i class="bi bi-arrow-left-square-fill">&nbsp;</i> Back
+            </a> 
+            
+            <a href="ma_portfolio.html" style="font-size: 20px;" class="btn">
+                Portfolio  &nbsp;<i class="bi bi-arrow-right-square-fill"></i> 
+            </a>
+        </section>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Rizky Gusti Fany. Individual Challenge.</p>
+    </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
